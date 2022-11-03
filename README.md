@@ -3,7 +3,7 @@
 ## Diseñando homepage para blog Laravel 8
 Un diseño minimalista pero elegante de página frontend para blog, construído en Laravel 8 con PHP 7.x y base de datos MySQL 5.7. Una forma rápida y sencilla de diseñar de manera funcional nuestra página de inicio para proyectos Laravel. Antes de comenzar, asegúrese de configurar una conexión de base de datos en el archivo de configuración config/database.php de su aplicación en los apartados usuario y contraseña.          
 
-![homepage laravel](imgs/home_laravel.jpg) {.figure}
+![homepage laravel](imgs/home_laravel.jpg)
                     
 ## Creando la aplicación
 Comencemos configurando nuestra aplicación Laravel, previamente debemos haber creado nuestra base de datos MySQL que para nuestro proyecto la llamaremos “Blog”. Para configurar vamos a editar el archivo .env que encontrarás en la carpeta raíz de instalación de Laravel, editaremos APP_NAME para que contenga el nombre de nuestra aplicación, y además DB_DATABASE con el nombre de nuestra base de datos, con estos elementos configurados podemos iniciar la codificación.
@@ -42,4 +42,4 @@ Donde:
 
 Luego descargue el proyecto y simplemente sustituya o cargue los archivos creados o modificados a sus respectivas ubicaciones. Recuerde que para visualizar la aplicación en local debe ejecutar en un terminal el comando php artisan serve el cual le entregará la URL y puerto que usará en su navegador.
 
-![homepage laravel](imgs/blog_laravel.jpg) {.figure}
+![homepage laravel](imgs/blog_laravel.jpg)
